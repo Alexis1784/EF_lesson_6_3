@@ -11,8 +11,8 @@ namespace EF_lesson_6_3
         protected override void Seed(MyContext db)
         {
 
-            Phone p1 = new Phone { Name = "Samsung Galaxy S5" };
-            Phone p2 = new Phone { Name = "Samsung Galaxy S4" };
+            Phone p1 = new Phone { Name = "Samsung Galaxy S5", Discount = 12 };
+            Phone p2 = new Phone { Name = "Samsung Galaxy S4", Discount = 13 };
             Phone p3 = new Phone { Name = "iPhone5" };
             Phone p4 = new Phone { Name = "iPhone 4S" };
 
